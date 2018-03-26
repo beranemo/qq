@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-
+Product.destroy_all
 20.times do |i|
   Product.create(
     name: "珍珠奶茶", 
