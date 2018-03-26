@@ -9,7 +9,7 @@
 
 20.times do |i|
   Product.create(
-    name: "產品名稱", 
+    name: "珍珠奶茶", 
     quantity: 10
   )
 end

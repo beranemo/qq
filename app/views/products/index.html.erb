@@ -6,13 +6,13 @@
       <tr>
         <th>名稱</th>
         <th>數量</th>
-        <th>加減數量</th>
+        <th>　加減數量</th>
       </tr>
       <% @products.each do |product| %>
         <tr>
           <td><%= product.name %></td>
-          <td><%= product.quantity %></td>
-          <td><input type="number" name="quantity" min="-100" max="100"></td>
+          <td style="text-align: right;"><%= product.quantity %></td>
+          <td>　<input type="number" name="quantity" min="-100" max="100"></td>
         </tr>
       <% end %>
     </tbody>
